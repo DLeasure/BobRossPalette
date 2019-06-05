@@ -1,0 +1,12 @@
+.square-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    margin: 2px;
+}
