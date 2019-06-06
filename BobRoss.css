@@ -9,27 +9,55 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-around;
-    height: 40px;
+    /* height: 0px; */
     padding: 20px;
     background-color: rgba(255, 228, 196, 0.397);
     
 }
 
-.button {
-    width: 40px;
-    height: 40px;
+button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    /* background-image: url("bob-ross.png"); */
+    background-size: 100%;
+    outline-style: none;
 }
 
 #red {
-    background: red;
+    background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    url("RedRoss.png");
+    background-size: 100%;
+    /* background-image: url("RedRoss.png"); */
+    /* background: rgba(255, 0, 0, 0.219); */
 }
 
 #blue {
-    background: blue;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 255, 0.45), 
+      rgba(0, 0, 255, 0.45)
+    ),
+    url("RedRoss.png");
+    background-size: 100%;
+    /* background-image: url("BlueRoss.png"); */
+    /* background: blue; */
 }
 
 #green {
-    background: green;
+    background: 
+    linear-gradient(
+      rgba(0, 255, 0, 0.45), 
+      rgba(0, 255, 0, 0.45)
+    ),
+    url("RedRoss.png");
+    background-size: 100%;
+    /* background-image: url("GreenRoss.png"); */
+    /* background: green; */
 }
 
 #square-parent {
