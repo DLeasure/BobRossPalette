@@ -25,9 +25,9 @@ squareParent.addEventListener ("click", function (e) {
     if (backgroundColor === "rgb(255, 255, 255)") {
       target.style.backgroundColor = "red";
     }
-    // else if {
-
-    // }
+    else if ( backgroundColor === "rgb(0, 128, 0)") {
+      target.style.backgroundColor = "brown";
+    }
   }
 
   if (lastButtonPressed === "green") {
