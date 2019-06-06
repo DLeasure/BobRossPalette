@@ -3,16 +3,25 @@ let lastButtonPressed = null;
 const redButton = document.querySelector("#red");
 redButton.addEventListener("click", function(e) {
     lastButtonPressed = "red";
+    redButton.style.border = "solid 2px black";
+    greenButton.style.border = "initial";
+    blueButton.style.border = "initial";
 });
 
 const greenButton = document.querySelector("#green");
 greenButton.addEventListener("click", function(e) {
     lastButtonPressed = "green";
+    greenButton.style.border = "solid 2px black";
+    redButton.style.border = "initial";
+    blueButton.style.border = "initial";
 });
 
 const blueButton = document.querySelector("#blue");
 blueButton.addEventListener("click", function(e) {
     lastButtonPressed = "blue";
+    blueButton.style.border = "solid 2px black";
+    greenButton.style.border = "initial";
+    redButton.style.border = "initial";
 });
 
 const squareParent = document.querySelector("#square-parent");
