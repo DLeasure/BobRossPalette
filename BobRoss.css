@@ -2,6 +2,18 @@
     border: solid 2px black;
 }
 
+#red {
+    background: red;
+}
+
+#blue {
+    background: blue;
+}
+
+#green {
+    background: green;
+}
+
 .square-row {
     display: flex;
     flex-direction: row;
@@ -15,3 +27,4 @@
     margin: 2px;
     background-color:white;
 }
+
