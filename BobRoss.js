@@ -24,27 +24,36 @@ squareParent.addEventListener ("click", function (e) {
   if (lastButtonPressed === "red") {
     if (backgroundColor === "rgb(255, 255, 255)") {
       target.style.backgroundColor = "red";
-    }
-    else if ( backgroundColor === "rgb(0, 128, 0)") {
+    } else if ( backgroundColor === "rgb(0, 128, 0)") {
       target.style.backgroundColor = "brown";
-    }
+    } else if ( backgroundColor === "rgb(0, 0, 255)") {
+      target.style.backgroundColor = "purple";
+    } else if ( backgroundColor === "rgb(0, 128, 128)") {
+      target.style.backgroundColor = "black";
+    } 
   }
 
   if (lastButtonPressed === "green") {
     if (backgroundColor === "rgb(255, 255, 255)") {
-      target.style.backgroundColor = "green";
-    }
-    // else if {
-      
-    // }
+      target.style.backgroundColor = "green"
+    } else if ( backgroundColor === "rgb(255, 0, 0)") {
+      target.style.backgroundColor = "brown";
+    } else if ( backgroundColor === "rgb(0, 0, 255)") {
+      target.style.backgroundColor = "teal";
+    } else if ( backgroundColor === "rgb(128, 0, 128)") {
+      target.style.backgroundColor = "black";
+    } 
   }
 
   if (lastButtonPressed === "blue") {
     if (backgroundColor === "rgb(255, 255, 255)") {
       target.style.backgroundColor = "blue";
-    }
-  //   else if {
-      
-  //   }
+    } else if ( backgroundColor === "rgb(0, 128, 0)") {
+      target.style.backgroundColor = "teal";
+    } else if ( backgroundColor === "rgb(255, 0, 0)") {
+      target.style.backgroundColor = "purple";
+    } else if ( backgroundColor === "rgb(165, 42, 42)") {
+      target.style.backgroundColor = "black";
+    } 
   }
 })

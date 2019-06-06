@@ -1,5 +1,9 @@
 #header {
     border: solid 2px black;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    
 }
 
 #red {
