@@ -19,6 +19,32 @@ const squareParent = document.querySelector("#square-parent");
 
 squareParent.addEventListener ("click", function (e) {
   const {currentTarget, target} = e;
-  console.log(e);
-  alert(getComputedStyle(target).backgroundColor);
+  let backgroundColor = getComputedStyle (target).backgroundColor;
+
+  if (lastButtonPressed === "red") {
+    if (backgroundColor === "rgb(255, 255, 255)") {
+      target.style.backgroundColor = "red";
+    }
+    // else if {
+
+    // }
+  }
+
+  if (lastButtonPressed === "green") {
+    if (backgroundColor === "rgb(255, 255, 255)") {
+      target.style.backgroundColor = "green";
+    }
+    // else if {
+      
+    // }
+  }
+
+  if (lastButtonPressed === "blue") {
+    if (backgroundColor === "rgb(255, 255, 255)") {
+      target.style.backgroundColor = "blue";
+    }
+  //   else if {
+      
+  //   }
+  }
 })
